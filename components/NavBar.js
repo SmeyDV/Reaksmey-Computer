@@ -40,6 +40,7 @@ export default function NavBar() {
         {/* Menubar */}
         <Menubar className="flex gap-4 ml-4">
           {/* Products Menu */}
+          <MenubarMenu className = "hover:text-blue-400 text-gray-100">Home</MenubarMenu>
           <MenubarMenu>
             <MenubarTrigger className="hover:text-blue-400 text-gray-100">
               Products
@@ -64,10 +65,10 @@ export default function NavBar() {
               </Link>
 
               {/* Components */}
-              <Link href="/components" passHref>
+              <Link href="/pccomponents" passHref>
                 <MenubarItem asChild>
                   <span className="hover:bg-blue-500 hover:text-white cursor-pointer">
-                    Components
+                    PC Components
                   </span>
                 </MenubarItem>
               </Link>

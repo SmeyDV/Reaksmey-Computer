@@ -26,7 +26,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen bg-gray-100">
           {/* Center content with margins */}
           <div className="flex flex-1 justify-center px-4">
-            <div className="w-full max-w-5xl">
+            <div className="w-full max-w-7xl">
               {children}
             </div>
           </div>
