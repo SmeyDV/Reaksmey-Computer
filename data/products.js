@@ -283,4 +283,377 @@ export const categories = [
       },
     ],
   },
+  {
+    name: "Monitor",
+    children: [
+      {
+        BrandId: 1,
+        BrandName: "Dell",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Dell UltraSharp U2723QE",
+              description:
+                "A 27-inch 4K monitor with exceptional color accuracy.",
+              price: "$649.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Dell S2721DGF",
+              description:
+                "A 27-inch QHD gaming monitor with 165Hz refresh rate.",
+              price: "$399.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 2,
+        BrandName: "LG",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "LG UltraGear 27GP850-B",
+              description: "A high-refresh-rate QHD gaming monitor.",
+              price: "$429.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "LG 32UN880-B UltraFine Ergo",
+              description: "A 32-inch 4K monitor with an ergonomic stand.",
+              price: "$699.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 3,
+        BrandName: "ASUS",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "ASUS ROG Swift PG32UQX",
+              description: "A 32-inch 4K gaming monitor with HDR support.",
+              price: "$1,799.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "ASUS TUF Gaming VG27AQ",
+              description: "A 27-inch WQHD monitor with 165Hz refresh rate.",
+              price: "$349.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 4,
+        BrandName: "Samsung",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Samsung Odyssey G7",
+              description:
+                "A 32-inch curved gaming monitor with QHD resolution.",
+              price: "$599.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Samsung Smart Monitor M8",
+              description: "A 32-inch smart monitor with built-in apps.",
+              price: "$699.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 5,
+        BrandName: "BenQ",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "BenQ EX3501R",
+              description: "A 35-inch ultrawide monitor for immersive viewing.",
+              price: "$599.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "BenQ PD3220U",
+              description: "A 32-inch 4K designer monitor with HDR.",
+              price: "$899.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 6,
+        BrandName: "Acer",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Acer Predator XB273K",
+              description: "A 27-inch 4K gaming monitor with HDR.",
+              price: "$999.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Acer Nitro XV272U",
+              description: "A 27-inch QHD monitor with a 144Hz refresh rate.",
+              price: "$299.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 7,
+        BrandName: "ViewSonic",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "ViewSonic Elite XG270",
+              description: "A 27-inch 240Hz gaming monitor.",
+              price: "$399.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "ViewSonic VP3268a-4K",
+              description: "A 32-inch 4K professional-grade monitor.",
+              price: "$749.99",
+              img: "",
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    name: "GamingGears",
+    children: [
+      {
+        BrandId: 1,
+        BrandName: "Razer",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Razer BlackWidow V3",
+              description: "Mechanical gaming keyboard with RGB lighting.",
+              price: "$139.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Razer DeathAdder V2",
+              description: "Ergonomic gaming mouse with precision sensor.",
+              price: "$69.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "Razer Kraken X",
+              description:
+                "Comfortable gaming headset with 7.1 surround sound.",
+              price: "$49.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 2,
+        BrandName: "Logitech",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Logitech G Pro X Keyboard",
+              description: "Pro-grade mechanical keyboard for esports.",
+              price: "$149.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Logitech G502 Hero",
+              description: "High-performance wired gaming mouse.",
+              price: "$79.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "Logitech G733 Lightspeed",
+              description: "Wireless RGB gaming headset with surround sound.",
+              price: "$129.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 3,
+        BrandName: "Corsair",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Corsair K95 RGB Platinum",
+              description: "Premium mechanical keyboard with customizable RGB.",
+              price: "$199.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Corsair Dark Core RGB Pro",
+              description: "Wireless gaming mouse with precision sensor.",
+              price: "$99.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "Corsair HS80 RGB Wireless",
+              description:
+                "Premium wireless gaming headset with spatial audio.",
+              price: "$149.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 4,
+        BrandName: "SteelSeries",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "SteelSeries Apex Pro",
+              description:
+                "Adjustable mechanical keyboard for precision typing.",
+              price: "$199.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "SteelSeries Rival 600",
+              description: "Dual sensor system for true 1-to-1 tracking.",
+              price: "$79.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "SteelSeries Arctis 7",
+              description: "Wireless gaming headset with DTS surround sound.",
+              price: "$149.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 5,
+        BrandName: "HyperX",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "HyperX Alloy Elite 2",
+              description: "RGB mechanical gaming keyboard with solid build.",
+              price: "$129.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "HyperX Pulsefire Surge",
+              description: "Gaming mouse with dynamic RGB effects.",
+              price: "$49.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "HyperX Cloud II",
+              description: "Legendary gaming headset with virtual 7.1 sound.",
+              price: "$99.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 6,
+        BrandName: "ASUS ROG",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "ASUS ROG Claymore II",
+              description: "Modular mechanical gaming keyboard.",
+              price: "$229.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "ASUS ROG Gladius III",
+              description: "Wired/wireless gaming mouse with high precision.",
+              price: "$99.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "ASUS ROG Delta S",
+              description: "Hi-res gaming headset with AI noise cancellation.",
+              price: "$199.99",
+              img: "",
+            },
+          ],
+        },
+      },
+      {
+        BrandId: 7,
+        BrandName: "Cooler Master",
+        children: {
+          models: [
+            {
+              modelId: 1,
+              title: "Cooler Master MK850",
+              description: "Mechanical keyboard with Aimpad technology.",
+              price: "$159.99",
+              img: "",
+            },
+            {
+              modelId: 2,
+              title: "Cooler Master MM711",
+              description: "Lightweight gaming mouse with honeycomb design.",
+              price: "$49.99",
+              img: "",
+            },
+            {
+              modelId: 3,
+              title: "Cooler Master MH670",
+              description: "Wireless gaming headset with 7.1 surround sound.",
+              price: "$99.99",
+              img: "",
+            },
+          ],
+        },
+      },
+    ],
+  },
 ];
